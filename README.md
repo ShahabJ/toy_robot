@@ -2,9 +2,10 @@
 
 ### Run the application
 
-- Clone the repository
+- Clone the repository and goto the folder
 ```console
 git clone git@github.com:ShahabJ/toy_robot.git
+cd toy_robot
 ```
 
 - Build the application (Note:You need .NET Core 5 SDK to build the application)
