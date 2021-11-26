@@ -26,7 +26,10 @@ cd ToyRobot.Console_App/
 dotnet run "./SampleInput/test_case_a.txt"
 ```
 
+### Packages
 
+- FluentAssertions
+- ApprovalTests
 
 ## Scenario
 
