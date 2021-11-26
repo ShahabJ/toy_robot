@@ -43,7 +43,7 @@ namespace ToyRobot.Console_App
                 return false;
             }
             var path = args[0];
-            System.Console.WriteLine(Path.GetExtension(path));
+            
             if(!Path.GetExtension(path).Equals(VALID_EXTENSION,StringComparison.OrdinalIgnoreCase))
             {
                 Console.WriteLine("The file extension should be txt");
