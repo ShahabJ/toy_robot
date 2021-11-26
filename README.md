@@ -1,7 +1,8 @@
 # Welcome to Toy Robot
-## Scenario
-Create a library that can read in commands of the following form:
 
+## Scenario
+
+Create a library that can read in commands of the following form:
 - PLACE X, Y, DIRECTION
 - MOVE
 - LEFT
@@ -9,6 +10,7 @@ Create a library that can read in commands of the following form:
 - REPORT
 
 ## Solution Requirements
+
 - The library allows for a simulation of a toy robot moving on a 6 x 6 square tabletop.
 - There are no obstructions on the table surface.
 - The robot is free to roam around the surface of the table, but must be prevented from falling to destruction. Any movement that would result in this must be prevented, however further valid movement commands must still be allowed.
@@ -21,3 +23,33 @@ Create a library that can read in commands of the following form:
 - LEFT and RIGHT will rotate the robot 90 degrees in the specified direction without changing the position of the robot.
 - REPORT will announce the X,Y and orientation of the robot.
 - A robot that is not on the table can choose to ignore the MOVE, LEFT, RIGHT and REPORT commands.
+
+## Requirements
+
+The project requires [.NET Core 5.0](https://dotnet.microsoft.com/download/dotnet/5.0). 
+Kindly note that this project may not work with older versions of .NET.
+
+## Compatible IDEs
+
+Tested on:
+- Visual Studio Code for Mac  (with C# OmniSharp extension)
+
+## Useful commands
+
+### Build the project
+
+```console
+$ dotnet build
+```
+
+### Run the tests
+
+```console
+$ dotnet test ToyRobot.Test/
+```
+
+### Run the application
+```console
+$ cd ToyRobot.Console_App/ 
+$ dotnet run "./SampleInput/test_case_a.txt
+```
