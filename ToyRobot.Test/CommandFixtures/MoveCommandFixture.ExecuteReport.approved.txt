@@ -1,0 +1,4 @@
+﻿Verifyinng Move Commnad => [0] = Position before move:0,0,NORTH, Position After move:0,1,NORTH
+Verifyinng Move Commnad => [1] = Position before move:0,0,EAST, Position After move:1,0,EAST
+Verifyinng Move Commnad => [2] = Position before move:1,0,WEST, Position After move:0,0,WEST
+Verifyinng Move Commnad => [3] = Position before move:0,1,SOUTH, Position After move:0,0,SOUTH

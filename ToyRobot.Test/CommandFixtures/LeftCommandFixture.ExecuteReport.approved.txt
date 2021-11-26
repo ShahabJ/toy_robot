@@ -1,0 +1,4 @@
+﻿Verifyinng Left Commnad => [0] = Position before TurnLeft:0,0,NORTH, Position After TurnLeft:0,0,WEST
+Verifyinng Left Commnad => [1] = Position before TurnLeft:0,0,EAST, Position After TurnLeft:0,0,NORTH
+Verifyinng Left Commnad => [2] = Position before TurnLeft:0,0,WEST, Position After TurnLeft:0,0,SOUTH
+Verifyinng Left Commnad => [3] = Position before TurnLeft:0,0,SOUTH, Position After TurnLeft:0,0,EAST

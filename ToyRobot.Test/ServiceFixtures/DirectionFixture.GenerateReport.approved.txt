@@ -1,0 +1,12 @@
+﻿[0] = Current Position:1,1,NORTH,New position after Move:1,2,NORTH
+[1] = Current Position:1,1,NORTH,New position after TurnLeft:1,1,WEST
+[2] = Current Position:1,1,NORTH,New position after TurnRigh:1,1,EAST
+[3] = Current Position:1,1,EAST,New position after Move:2,1,EAST
+[4] = Current Position:1,1,EAST,New position after TurnLeft:1,1,NORTH
+[5] = Current Position:1,1,EAST,New position after TurnRigh:1,1,SOUTH
+[6] = Current Position:1,1,WEST,New position after Move:0,1,WEST
+[7] = Current Position:1,1,WEST,New position after TurnLeft:1,1,SOUTH
+[8] = Current Position:1,1,WEST,New position after TurnRigh:1,1,NORTH
+[9] = Current Position:1,1,SOUTH,New position after Move:1,0,SOUTH
+[10] = Current Position:1,1,SOUTH,New position after TurnLeft:1,1,EAST
+[11] = Current Position:1,1,SOUTH,New position after TurnRigh:1,1,WEST

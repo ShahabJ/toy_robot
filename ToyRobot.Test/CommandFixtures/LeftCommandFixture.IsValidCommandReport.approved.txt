@@ -1,0 +1,7 @@
+﻿[0] = Left ==> True
+[1] = left ==> True
+[2] = LEFT ==> True
+[3] = LEFT  ==> False
+[4] = LEFT 1 ==> False
+[5] =  LEFT ==> False
+[6] = LFEL ==> False
