@@ -4,25 +4,25 @@
 
 - Clone the repository
 ```console
-$ git clone git@github.com:ShahabJ/toy_robot.git
+git clone git@github.com:ShahabJ/toy_robot.git
 ```
 
 - Build the application (Note:You need .NET Core 5 SDK to build the application)
 ```console
-$ dotnet build
+dotnet build
 ```
-- Create a text file which each line has a command (There are sample file in 'ToyRobot.Console_App/SampleInput' folder)
+- Create a text file which each line has a command (There are sample files in 'ToyRobot.Console_App/SampleInput' folder)
 
 - Run the application by the folloing commnad
 ```console
-$ cd ToyRobot.Console_App/ 
-$ dotnet run "Location of created txt file."
+cd ToyRobot.Console_App/ 
+dotnet run "Location of created txt file."
 ```
 
 You can use the the below command as a sample
 ```console
-$ cd ToyRobot.Console_App/ 
-$ dotnet run "./SampleInput/test_case_a.txt"
+cd ToyRobot.Console_App/ 
+dotnet run "./SampleInput/test_case_a.txt"
 ```
 
 
@@ -66,17 +66,17 @@ Tested on:
 ### Build the project
 
 ```console
-$ dotnet build
+dotnet build
 ```
 
 ### Run the tests
 
 ```console
-$ dotnet test ToyRobot.Test/
+dotnet test ToyRobot.Test/
 ```
 
 ### Run the application
 ```console
-$ cd ToyRobot.Console_App/ 
-$ dotnet run "./SampleInput/test_case_a.txt"
+cd ToyRobot.Console_App/ 
+dotnet run "./SampleInput/test_case_a.txt"
 ```
