@@ -80,3 +80,13 @@ dotnet test ToyRobot.Test/
 cd ToyRobot.Console_App/ 
 dotnet run "./SampleInput/test_case_a.txt"
 ```
+
+### Sample Output 
+```console
+======Start =====
+Detected commands: PLACE 0,0,NORTH
+Detected commands: MOVE
+Detected commands: REPORT
+0,1,NORTH
+======End=====
+```
